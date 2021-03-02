@@ -12,7 +12,6 @@ public class Printable implements IPrintable{
 
     @Override
     public String toString() {
-        String result = "";
 
         return "Printable" + Arrays.toString(printables);
 
