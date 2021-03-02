@@ -16,7 +16,6 @@ public class Main {
 
 
         System.out.println(SeasonsOfYear.valueOf("SUMMER"));
-        //AboutLikeSeason("SPRING");
 
         System.out.println(java.util.Arrays.asList(SeasonsOfYear.values()));
         System.out.println(SeasonsOfYear.AUTUMN.getAverageTemp());
@@ -39,5 +38,11 @@ public class Main {
 
 
         }
+
+        //не совсем поняла как в рамках одного класса сделать @Override - просто создать подчиненный класс и в нем?
+        // сделала перезагрузку
+        SeasonsOfYear.getDescription();
+        SeasonsOfYear.getDescription(SUMMER);
+
         }
     }
