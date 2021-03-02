@@ -14,26 +14,22 @@ public class Main {
         // Переопределить метод getDescription - для константы Лето метод должен возвращать “Теплое время года”.
         //ж) В цикле распечатать все времена года, среднюю температуру и описание времени года.
 
-       /*
+
         System.out.println(SeasonsOfYear.valueOf("SUMMER"));
         //AboutLikeSeason("SPRING");
 
         System.out.println(java.util.Arrays.asList(SeasonsOfYear.values()));
         System.out.println(SeasonsOfYear.AUTUMN.getAverageTemp());
-*/
-       /* for (SeasonsOfYear dir: SeasonsOfYear.values()) {
-            System.out.println(dir.name());
-            System.out.println(dir.getAverageTemp());
 
-        }
+
         System.out.println(SeasonsOfYear.AUTUMN.getAverageTemp());
         System.out.println(SeasonsOfYear.SUMMER);
         System.out.println(SeasonsOfYear.AUTUMN);
         System.out.println(SeasonsOfYear.WINTER);
-        System.out.println(SeasonsOfYear.SPRING);*/
+        System.out.println(SeasonsOfYear.SPRING);
 
-        /*SeasonsOfYear like = SUMMER;
-        System.out.println(SeasonsOfYear.valueOf(like.name()).AboutLikeSeason(like));*/
+        SeasonsOfYear like1 = SUMMER;
+        System.out.println(SeasonsOfYear.valueOf(like1.name()).AboutLikeSeason(like1));
 
         for (SeasonsOfYear dir: SeasonsOfYear.values()) {
             System.out.println(dir.name());
